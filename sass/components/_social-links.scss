@@ -1,0 +1,27 @@
+.social-links {
+  padding-top: 72px;
+  padding-bottom: 100px;
+  margin-left: 70px;
+  &__heading {
+    margin-bottom: 20px;
+  }
+  &__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  &__background {
+    border-radius: 50%;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    &:hover,
+    &:focus {
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+}
