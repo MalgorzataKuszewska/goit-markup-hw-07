@@ -253,7 +253,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #212121;
+  color: inherit;
 }
 .nav__link:hover, .nav__link:focus {
   color: #2196f3;
