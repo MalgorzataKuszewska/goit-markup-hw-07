@@ -1,3 +1,5 @@
+@import "../utils/variables";
+
 .input {
   border-radius: 4px;
   margin-bottom: 10px;
@@ -5,11 +7,13 @@
   background-repeat: no-repeat;
   background-position: 12px 11px;
   padding: 12px 42px;
+  border: 1px solid getColor("border-input");
   &:focus {
     outline: none;
     border-radius: 4px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid getColor("hover");
   }
 }
 .input[type="text"] {

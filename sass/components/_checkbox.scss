@@ -1,3 +1,5 @@
+@import "../utils/variables";
+
 .checkbox {
   display: flex;
   align-items: center;
@@ -19,5 +21,12 @@
   }
   &__text {
     margin-left: 8px;
+    font-size: calc(#{$small-font-size} + 2px);
+    line-height: 1.71;
+    letter-spacing: getLetterSpacing("l");
+    color: getColor("primary");
+  }
+  &__link {
+    color: getColor("hover");
   }
 }
